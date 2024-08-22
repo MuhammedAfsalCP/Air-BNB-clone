@@ -1,0 +1,762 @@
+* {
+    margin: 0px;
+}
+header {
+    width: 100%;
+    height: 175px;
+    border-bottom: solid 1px #c8dece;
+    
+}
+.top {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.first {
+    width: 47%;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second {
+    width: 40%;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image1 {
+    width: 140px;
+    height: 75px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+.image1 {
+    background-size: 140px 70px;
+    background-image: url("logo-removebg-preview.png");
+}
+.image1:focus {
+    background-size: 140px 70px;
+    background-image: url("logo-removebg-preview-Photoroom-removebg-preview.png");
+}
+.image1:hover {
+    background-size: 140px 70px;
+    background-image: url("logo-removebg-preview.png");
+}
+#first-button {
+    width: 90px;
+    height: 60px;
+    border: none;
+    background-color: #fff;
+    color: #525750;
+    border-radius: 20px;
+    margin-right: 1px;
+    font-size: 20px;
+    background-color: none;
+}
+#first-button:hover {
+    color: #3b3030;
+    background-color: #c4c7c3;
+}
+#first-button:focus {
+    color: black;
+}
+#second-button {
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #525750;
+    font-size: 20px;
+}
+button:hover {
+    cursor: pointer;
+}
+#second-button:hover {
+    color: #3b3030;
+    background-color: #c4c7c3;
+}
+#second-button:focus {
+    color: black;
+}
+#third-button {
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 18px;
+}
+#third-button:hover {
+    background-color: #c4c7c3;
+}
+.third {
+    height: 90px;
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourth-button {
+    width: 100px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px #c4c7c3;
+    justify-content: space-around;
+}
+.fourth-button:hover {
+    box-shadow: 0px 2px 5px #c4c7c3;
+}
+.fourth-button:focus {
+    border: solid 1px #c4c7c3;
+}
+#world:hover {
+    cursor: pointer;
+}
+.third:hover {
+    cursor: pointer;
+}
+.head-down{
+ width: 100%;
+ height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.down-main{
+ height: 65px;
+ width: 63%;
+ border: solid 1px #d1c9ca;
+ display: grid;
+ border-radius: 40px;
+ grid-template-columns: 2fr 1fr 1fr 2fr;
+}
+.down-main-first{
+    height: 65px;
+    border-radius: 40px;
+}
+.down-main-first:hover{
+    background-color: #e0dadb;
+}
+.down-main-second{
+    height: 65px;
+    border-radius: 40px;
+}
+.down-main-second:hover{
+    background-color: #e0dadb;
+}
+.down-main-third{
+    height: 65px;
+    border-radius: 40px;
+}
+.down-main-third:hover{
+    background-color: #e0dadb;
+}
+.down-main-fourth{
+    height: 65px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-main-fourth:hover{
+    background-color: #e0dadb;
+}
+.first-input{
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-size: 16px;
+    border: none;
+    background: none;
+}
+.first-input:hover{
+    background-color: #e0dadb;
+
+}
+.first-input:focus{
+    outline: none;
+}
+.first-caption{
+    position: relative;
+    left: 30px;
+    font-size: 16px;
+    top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+}
+.second-caption{
+    display: block;
+    position: relative;
+    left: 30px;
+    font-size: 16px;
+    top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    display: block;
+}
+.second-input{
+    position: relative;
+    color: #a19c9c;
+    left: 30px;
+    top: 15px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    background: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second-input:focus{
+    outline: none;
+}
+.second-input:hover{
+    background-color:#e0dadb ;
+}
+
+.fourth-circle{
+    width: 50px;
+    height: 50px;
+    background-color:#d64054;
+    margin-right: 20px;
+    border-radius: 60px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    width: 100%;
+    height: 537px;
+   
+}
+.icons{
+    width: 100%;
+    height: 120px;
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.first-icon{
+ width: 55px;
+ height: 80px;
+ align-self: center;
+ justify-content: center;
+ opacity: 0.6;
+ 
+}
+.first-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.second-icon{
+    width: 140px;
+    height: 80px;
+    opacity: 0.6;
+}
+.second-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.third-icon{
+    width: 90px;
+    height: 80px;
+    opacity: 0.6;
+}
+
+    .third-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.four-icon{
+    width: 140px;
+    height: 80px;
+    opacity: 0.6;
+}
+.four-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.five-icon{
+    width: 65px;
+ height: 80px;
+ opacity: 0.6;
+}
+.five-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.six-icon{
+    width: 70px;
+    height: 80px;
+    opacity: 0.6;
+}
+.six-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.seven-icon{
+    width: 65px;
+ height: 80px;
+ opacity: 0.6;
+
+}
+.seven-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.eight-icon{
+    width: 65px;
+ height: 80px;
+ opacity: 0.6;
+}
+.eight-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.nine-icon{
+    width: 65px;
+ height: 80px;
+ opacity: 0.6;
+}
+.nine-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.ten-icon{
+    width: 70px;
+    height: 80px;
+    opacity: 0.6;
+}
+.ten-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.eleven-icon{
+    width: 55px;
+    height: 80px;
+    opacity: 0.6;
+   
+}
+.eleven-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.twovelve-icon{
+    width: 115px;
+    height: 80px;
+    opacity: 0.6;
+   
+}
+.twovelve-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.thirteen-icon{
+    width: 80px;
+    height: 80px;
+    opacity: 0.6;
+}
+.thirteen-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+.fourteen-icon{
+    height: 80px;
+    width: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  opacity: 0.6;
+}
+.arrow:hover{
+    cursor: pointer;
+   opacity: 1;
+}
+.icon-image{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 9px;
+    top: 7px;
+}
+.icons-text{
+    position: relative;
+    left: 9px;
+    top: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.pool-image{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: block;
+    top: 7px;
+    left: 50px;
+}
+.pool-text{
+    position: relative;
+   top:12px ;
+   left: 20px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.lake-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 25px;
+}
+.lake-text{
+    position: relative;
+    top: 13px;
+    left: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.amaz-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 55px;
+}
+.amaz-text{
+    position: relative;
+    left: 22px;
+    top: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.cave-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 14px;
+}
+.cave-text{
+    position: relative;
+    left: 12px;
+    top: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.golving-image{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+.golfing-text{
+    position: relative;
+    left: 10px;
+    top: 9px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.farm-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 14px;
+}
+.farm-text{
+    position: relative;
+    left: 10px;
+    top: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.omg-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+.omg-text{
+    position: relative;
+    left: 16px;
+    top: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.beach-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+.beach-text{
+    position: relative;
+    left: 11px;
+    top: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.cabin-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 16px;
+}
+.cabin-text{
+    position: relative;
+    left: 11px;
+    top: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.luxe-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 16px;
+}
+.luxe-text{
+    position: relative;
+    left: 19px;
+    top: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.chef-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 46px;
+}
+.chef-text{
+    position: relative;
+    left: 6px;
+    top: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.front-image{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 25px;
+}
+.front-text{
+    position: relative;
+    left: 4x;
+    top: 11px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.arrow{
+    width: 35px;
+    height: 35px;
+}
+.images{
+    width: 100%;
+    height:417px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    width: 97%;
+    height: 417px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cart-image{
+    width: 340px;
+    position: relative;
+    border-radius: 20px;
+    top: 20px;
+    height: 311px;
+    left: 20px;
+    background-image: url(4th.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.cart-2-image{
+    width: 340px;
+    position: relative;
+    left: 20px;
+    border-radius: 20px;
+    top: 20px;
+    height: 311px;
+    background-image: url(1st.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.cart-3-image{
+    width: 340px;
+    height: 311px;
+    position: relative;
+    border-radius: 20px;
+    top: 20px;
+    left: 20px;
+    background-image: url(2nd.webp);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+    justify-content: center;
+    background-position: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.cart-4-image{
+    width: 340px;
+    height: 311px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-image: url(3rd.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.cart-text{
+    display: block;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 18px;
+}
+.cart-under-text{
+    display: block;
+    position: relative;
+    top: 42px;
+    left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #6a736c;
+    font-size: 18px;
+}
+.cash-text{
+    position: relative;
+    top: 44px;
+    left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 18px;
+}
+.cash-under-text-1{
+    position: relative;
+    top: 42px;
+    left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #6a736c;
+    font-size: 18px;
+}
+.live-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    font-size: 17px;
+    height: 30px;
+    background-color: #bdd9c4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border-radius: 20px;
+}
+.cart-head{
+    width: 91%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+.upload-icon{
+    width: 35px;
+    height: 35px;
+    background-color: #bdd9c4;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-center{
+    width: 91%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    visibility: hidden;
+}
+.cart-arrow{
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-down{
+    width: 91%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-image:hover .cart-center{
+    visibility: visible;
+}
+.cart-2-image:hover .cart-center{
+    visibility: visible;
+}
+.cart-3-image :hover .cart-center{
+    visibility: visible;
+}
+.cart-4-image :hover .cart-center{
+    visibility: visible;
+}
